@@ -1,4 +1,4 @@
-package com.kit.google.homeWork.lesson21.lesson21;
+package com.kit.core.google.homeWork.lesson21;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

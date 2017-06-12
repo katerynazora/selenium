@@ -1,4 +1,4 @@
-package com.kit.google.homeWork.lesson21.lesson22;
+package com.kit.core.google.homeWork.lesson22;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +17,7 @@ import static junit.framework.TestCase.assertTrue;
 /**
  * Created by Kateryna Zora  on 08.06.2017.
  */
-public class EnterMailTest {
+public class EnterOldMailTest {
     private WebDriver webDriver;
     private String gmailOpen;
 
