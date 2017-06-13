@@ -64,7 +64,6 @@ public class EnterOldMailTest {
         By verifyLocator = By.cssSelector(".gb_b.gb_db.gb_R");
         WebElement verify = webDriver.findElement(verifyLocator);
         assertTrue(verify.getAttribute("title").contains(enterMail));
-
     }
 
 //    @AfterClass
