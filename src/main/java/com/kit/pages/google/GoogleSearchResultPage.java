@@ -25,4 +25,7 @@ public class GoogleSearchResultPage extends GoogleBasePage{
         link = webDriverUtil.waitForExpectedCondition(ExpectedConditions.visibilityOfElementLocated(linkLocator));
         return link.getText();
     }
+    public void clickLink(){
+        webDriverUtil.jsClick("gb_70","id");
+    }
 }
