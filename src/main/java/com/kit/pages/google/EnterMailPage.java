@@ -15,6 +15,7 @@ public class EnterMailPage extends GoogleBasePage{
     By enterLoginLocator = By.id("identifierId");
     By clickLocator = By.id("identifierNext");
 
+
     public EnterMailPage(WebDriver webDriver){
         super(webDriver);
         this.webDriver = webDriver;
@@ -29,4 +30,5 @@ public class EnterMailPage extends GoogleBasePage{
         searchField = webDriver.findElement(clickLocator);
         searchField.click();
     }
+
 }

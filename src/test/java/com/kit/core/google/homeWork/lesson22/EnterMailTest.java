@@ -9,7 +9,8 @@ import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Description;
 import ru.yandex.qatools.allure.annotations.Features;
 
-import static org.junit.Assert.assertTrue;
+//import static org.junit.Assert.assertTrue;
+import static org.testng.Assert.assertTrue;
 
 /**
  * Created by Kateryna Zora  on 09.06.2017.

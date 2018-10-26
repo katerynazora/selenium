@@ -36,5 +36,8 @@ public class WebDriverUtil {
         }
         return new byte[0];
     }
+
+    public void jsClick(String gb_70, String id) {
+    }
 }
 

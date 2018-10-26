@@ -9,9 +9,9 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-            <selenium.version>3.4.0</selenium.version>
-            <testng.version>6.11</testng.version>
-            <webdrivermanager.version>1.6.2</webdrivermanager.version>
+            <selenium.version>3.12.0</selenium.version>
+            <testng.version>6.14.3</testng.version>
+            <webdrivermanager.version>2.2.1</webdrivermanager.version>
             <maven.compiler.source>1.8</maven.compiler.source>
             <maven.compiler.target>1.8</maven.compiler.target>
             <allure.version>1.5.2</allure.version>
@@ -20,7 +20,6 @@
             <maven.surefire.plugin>2.18.1</maven.surefire.plugin>
             <allure.plugin>2.2</allure.plugin>
     </properties>
-
 
     <dependencies>
         <dependency>
